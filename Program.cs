@@ -12,7 +12,7 @@ namespace UserSide
             {
                 Console.WriteLine($"{s} and the ID for your Movie is {i}");
             };
-
+            MovieCollections cl = new MovieCollections();
             while (true)
             {
                 Console.WriteLine("---------------------------------------------------");
